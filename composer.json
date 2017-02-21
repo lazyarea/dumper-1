@@ -10,6 +10,6 @@
         }
     },
     "require": {
-        "nagomien/dumper": "^1.0.1"
+        "nagomien/dumper": "^1.1"
     }
 }
