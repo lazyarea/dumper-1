@@ -26,6 +26,9 @@ class Warn
         elseif ( is_array($data) ) {
           error_log(print_r($data,true),3,$this->fpath);
         }
+        elseif ( gettype($data) == 'object' ) {
+          error_log(print_r($data,true),3,$this->fpath);
+        }
         else{
           error_log(print_r($data,true),3,$this->fpath);
         }

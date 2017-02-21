@@ -3,13 +3,13 @@
     "description": "logging data to file",
     "keywords": ["log","logging","dump","dumper"],
     "license": "MIT",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "autoload": {
         "psr-0" : {
             "Nagomien\\Logger" : "src"
         }
     },
     "require": {
-        "nagomien/dumper": "^1.0.1"
+        "nagomien/dumper": "^1.0.2"
     }
 }
